@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+
+body {
+    background-color: aquamarine;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1#principal {
+    background-color: rgb(40, 78, 66);
+    color: aliceblue;
+}
+
+h1 {
+    color: rgb(33, 65, 54);
+}
+
+h2 {
+    color: rgb(0, 104, 104);
+}

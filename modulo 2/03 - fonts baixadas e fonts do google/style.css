@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fastrider';
+    src: url(fontes/FastRider-Regular.ttf) format(truetype), url(fontes/FastRider-Shadow.ttf) format(truetype);
+}
+
+body {
+    
+    font-family: 'fastrider';
+}

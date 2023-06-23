@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagem/favicon.ico" type="image/x-icon">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes ou simplismente aumente e diminua o tamanho do navegador.</p>
+
+    <picture>
+        <source media="(max-width: 1250px)" srcset="imagem/650.jpg" type="image/jpg">
+        <source media="(max-width: 1950px)" srcset="imagem/1200.jpg" type="image/jpg">
+        <img src="imagem/1900.jpg" alt="Foto grande pra caralho">
+    </picture>
+
+    <h1>Reproduzindo audio</h1>
+    <p>vamos aprender a reproduzir audios em HTML5.</p>
+    <audio src="midia/acabou.mp3" controls loop></audio>
+
+    <p>Outra forma de por audio</p>
+    
+    <audio>
+        <source src="midia/acabou.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>
