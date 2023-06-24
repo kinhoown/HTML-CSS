@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+body{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Surveyor_1_launch.jpg/220px-Surveyor_1_launch.jpg");
+
+    background-size: 300px 400px;
+    background-repeat: no-repeat;
+}
