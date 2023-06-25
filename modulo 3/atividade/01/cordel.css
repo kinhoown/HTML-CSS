@@ -33,7 +33,7 @@ header{
 }
 h1{
     font-family: var(--fonte2);
-    font-size: 6em;
+    font-size: 10vw;
     margin: -10px 0px -20px 0px;
     padding: 30px 0px 0px 0px;
     
@@ -52,7 +52,7 @@ main{
 }
 p{
     font-family: var(--fonte3);
-    font-size: 2em;
+    font-size: 3.5vw;
 }
 .creditos{
     font-family: var(--fonte1);
@@ -75,7 +75,7 @@ a:hover{
 .fundo_cinza{
     background-color: rgba(0, 0, 0, 0.397);
     color: white;
-    width: 390px;
+    display: inline-block;
     margin: 100px -10px;
     padding: 0px 10px;
 }
