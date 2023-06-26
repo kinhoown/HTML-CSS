@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    font-variant: small-caps;
+}
+td,th{
+    border: 5px solid black;
+    width: 100px;
+    height: 35px;
+}
+th{
+    background-color: aquamarine;
+    color: aqua;
+}
+td{
+    background-color: rgb(127, 255, 249);
+}
+#m{
+    color: pink;
+}
+#h{
+    color: rgb(243, 40, 40);
+}

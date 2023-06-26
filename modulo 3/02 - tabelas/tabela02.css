@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: rgba(2, 105, 105, 0.733);
+    
+}
+div{
+    max-width: 500px;
+    background-color: rgb(196, 251, 255);
+    margin: auto;
+    padding-bottom: 60px;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(226, 226, 118);
+
+}
+table{
+    border-collapse: collapse;
+    width: 400px;
+    margin: auto;
+    position: relative;
+}
+caption{
+    font-variant: small-caps;
+    color: rgb(226, 226, 118);
+}
+tbody > tr:nth-child(2n){
+    background-color: rgb(127, 255, 238);
+}
+tbody > tr:nth-child(2n-1){
+    background-color: rgb(127, 255, 176);
+}
+thead>tr{
+    position: sticky;
+    top: -1px;
+    background-color: rgb(47, 145, 68);
+}
+td , th{
+    border: 1px solid black;
+    color: bisque;
+}
+td{
+    text-align: center;
+}
+th , #num{
+    text-transform: uppercase;
+    background-color: rgb(47, 145, 68);
+    color: rgba(255, 251, 0, 0.842);
+}
+.num{
+    text-align: right;
+}
+
