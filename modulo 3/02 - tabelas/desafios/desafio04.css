@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+
+table{
+    border-collapse: collapse;
+    
+}
+th,td{
+    border: 2px solid black;
+    width: 100px;
+}
+th{
+    text-transform: uppercase;
+}
+.num{
+    text-align: center;
+}
+.cabeça{
+    background-color:  rgb(126, 126, 126);
+    color: white;
+}

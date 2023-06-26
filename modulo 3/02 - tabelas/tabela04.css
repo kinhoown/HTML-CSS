@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+
+table{
+    border-collapse: collapse;
+    width: 300px;
+    text-align: center;
+    text-transform: uppercase;
+}
+th,td{
+    border: 2px solid black;
+}
+th{
+    background-color: rgb(78, 156, 130);
+    color: antiquewhite;
+}
+.nome{
+    background-color: aquamarine;
+}
+.sexo{
+    background-color: rgb(127, 255, 244);
+}
+.idade{
+    background-color: rgb(127, 204, 255);
+}
+.profissão{
+    background-color: rgb(129, 127, 255);
+}

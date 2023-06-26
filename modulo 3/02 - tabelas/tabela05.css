@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+
+
+div{
+    overflow-x: auto;
+}
+table{
+    border-collapse: collapse;
+    width: 1000px;
+}
+th,td{
+    border: 2px solid black;
+    text-align: center;
+}
