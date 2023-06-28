@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+
+/*MODO RETRATO*/
+
+body{
+    background-color: blue;
+    background-image: url("../../imagem/cev-portrait.jpg");
+    background-repeat: no-repeat;
+}

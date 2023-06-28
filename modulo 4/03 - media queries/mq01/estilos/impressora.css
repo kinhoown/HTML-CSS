@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+/*CSS DA IMPRESSORA*/
+
+*{
+    margin: 0PX;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+}
+ul{
+    display: none;
+}
+h1{
+    text-align: center;
+}
+main{
+    text-align: justify;
+}

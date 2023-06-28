@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*CSS DA TELA*/
+
+*{
+    margin: 0PX;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+}
+body{
+    background-color: aquamarine;
+    height: 100vh;
+}
+header{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, serif;
+}
+main{
+    background-color: rgb(10, 70, 70);
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+    color: bisque;
+}
+li{
+    display: inline-block;
+    margin: 10px 25px;
+}
+h2{
+    margin-bottom: 30px;
+}
+footer{
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(17, 128, 128);
+    padding: 10px 0px;
+}
+main p{
+    text-indent: 30px;
+    margin-bottom: 10px;
+}
