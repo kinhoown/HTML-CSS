@@ -2,7 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@200&display=swap');
+
 :root{
+    --cor-h1-h2: rgb(213, 246, 252);
     --escuro-forte: #132031;
     --escuro-fraco: #182945;
     --claro-forte: #5594C0;
@@ -10,11 +15,18 @@
 
     --fonte-normal: Verdana, Geneva, Tahoma, sans-serif;
     --fonte-ubunto: 'Kablammo', cursive;
+    --fonte-chris: 'Caprasimo', cursive;
+    --fonte-def: 'Ysabeau SC', sans-serif;
 }
 
 *{
     margin: 0px;
     padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
 }
 
 body{
@@ -31,14 +43,24 @@ nav{
 
 h1{
     text-align: center;
-    padding: 20px;
+    padding: 30px 0px;
+    color: var(--cor-h1-h2);
+    font-size: 3em;
+    font-family: var(--fonte-chris);
+    font-weight: lighter;
 }
 
 li{
     padding-bottom: 5px;
     padding-top: 5px;
-    border: 1px solid var();
+    border: 1px solid rgba(0, 0, 0, 0.041);
     text-align: center;
+}
+
+li a{
+    color: var(--claro-fraco);
+    text-decoration: none;
+    font-family: var(--fonte-def);
 }
 
 main{
@@ -48,13 +70,41 @@ main{
 }
 
 article{
-    background-color: rgba(0, 0, 0, 0.26);
+    background-color: rgba(0, 0, 0, 0.5);
     width: 95vw;
     margin: auto;
+}
+
+h2{
+    color: var(--cor-h1-h2);
+    text-indent: 60px;
+    font-size: 2em;
+    font-family: var(--fonte-chris);
+    font-weight: lighter;
+    padding-top: 20px;
 }
 
 p{
     color: white;
     padding: 10px;
     text-align: justify;
+    font-family: var(--fonte-normal);
+}
+
+.inifim{
+    padding-top: 20px;
+}
+
+footer{
+    background-image: linear-gradient(var(--escuro-forte) , var(--claro-forte));
+}
+
+footer p{
+    text-align: center;
+}
+
+footer p a{
+    color: var(--claro-fraco);
+    font-family: var(--fonte-def);
+    text-decoration: none;
 }
