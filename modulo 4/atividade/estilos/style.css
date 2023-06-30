@@ -32,12 +32,11 @@ main{
     left: 50%;
     top: 50%;
     transform: translate(-50% , -50%);
+    border-radius: 20px;
 
     background-image: url(../imagens/flor.jpg);
-    background-size: 50px;
+    background-size: 270px;
     background-repeat: no-repeat;
-    
-}
-p{
+    background-position: center top;
     
 }
